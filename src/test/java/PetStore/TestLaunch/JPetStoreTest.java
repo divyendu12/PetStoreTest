@@ -15,7 +15,7 @@ public class JPetStoreTest {
         
     	
         WebDriver driver = new FirefoxDriver();
-        String baseUrl = "http://127.0.0.1:8081/JepetStoreApp/";
+        String baseUrl = "http://127.0.0.1:8081/JpetStore/";
         String expectedTitle = "Welcome to JPetStore 6";
         String actualTitle = "";
  
