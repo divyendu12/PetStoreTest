@@ -1,14 +1,17 @@
 package PetStore.TestLaunch;
 
 
-import org.testng.annotations.Test;
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 
 
 
 public class JPetStoreTest {
+
  
 	@Test
     public static void TestLaunch () {
