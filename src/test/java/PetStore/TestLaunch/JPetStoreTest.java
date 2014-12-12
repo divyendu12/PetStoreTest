@@ -8,8 +8,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 
-
- 
 public class JPetStoreTest {
  
 	@Test
@@ -17,7 +15,7 @@ public class JPetStoreTest {
         
     	
         WebDriver driver = new FirefoxDriver();
-        String baseUrl = "http://127.0.0.1:8081/JpetStoreApplication/";
+        String baseUrl = "http://127.0.0.1:8081/JepetStoreApp/";
         String expectedTitle = "Welcome to JPetStore 6";
         String actualTitle = "";
  
